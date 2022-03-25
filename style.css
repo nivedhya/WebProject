@@ -1,0 +1,100 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    color: green;
+    background-color: tomato;
+}
+.black1{
+    color: yellow;
+    background-color: violet;
+}
+
+.start{
+    background-color: blue;
+}
+
+
+.image:hover{
+    box-shadow: 0 8px 16px 0px;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.header1{
+
+    background-color: #eaedf0;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+ 
+}
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+          /* Create two columns/boxes that floats next to each other */
+          nav {
+            float: left;
+            width: 100%;
+            height: 500px; /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+          }
+          
+        .aside1{
+           
+            height: 500px;
+            padding: 20px;
+            background: rgb(172, 133, 133)
+        }
+          
+          article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px; /* only for demonstration, should be removed */
+          }
+          
+          /* Clear floats after the columns */
+          section::after {
+            content: "center";
+            display: table;
+            clear: both;
+          }   
+      
+        .container {
+
+       display: flex;
+     
+          margin: 10px;
+          width: 100%;
+          height: 50;
+          line-height: 115px;
+          text-align: center;
+          border: 1px solid red;
+          justify-content: center;
+      }
+      .image {
+          max-width:50px;
+          max-height:50px;
+          
+         ;
+      }
+      footer {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+
+
